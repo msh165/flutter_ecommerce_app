@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#F0E0FF"
+  color_dark: "#000000"
+  image: assets\logos\marketscope-logo-text-light.png
+  image_dark: assets\logos\marketscope-logo-text-dark.png
+
+android_12:
+  color: "#F0E0FF"
+  color_dark: "#000000"
+  image: assets\logos\marketscope-logo-text-light.png
+  image_dark: assets\logos\marketscope-logo-text-dark.png
