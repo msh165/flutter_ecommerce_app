@@ -9,3 +9,6 @@ android_12:
   color_dark: "#000000"
   image: assets\logos\marketscope-logo-text-light.png
   image_dark: assets\logos\marketscope-logo-text-dark.png
+
+# Web won't contain any splash screen
+web: false 
