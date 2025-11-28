@@ -11,4 +11,4 @@ android_12:
   image_dark: assets\logos\marketscope-logo-text-dark.png
 
 # Web won't contain any splash screen
-web: false 
+web: true 

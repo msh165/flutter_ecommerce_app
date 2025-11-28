@@ -15,8 +15,8 @@ class TColors{
     end: Alignment(0.707, -0.707),
     colors: [
     Color(0xfffff9a9e),
-    Color(0xffad0c4),
-    Color(0xffad0c4),
+    Color(0x0ffad0c4),
+    Color(0x0ffad0c4),
   ]);
 
 

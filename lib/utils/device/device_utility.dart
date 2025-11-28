@@ -52,6 +52,12 @@ class TDeviceUtils { //Any function related to device would be kept here
     return viewInsets.bottom;
   }
 
+  static double getAppBarHeight(){
+    return kToolbarHeight;
+  }
+
+
+
   static Future<bool> isKeyboardVisible() async {
     final viewInsets = View.of(Get.context!).viewInsets;
     return viewInsets.bottom > 0;
