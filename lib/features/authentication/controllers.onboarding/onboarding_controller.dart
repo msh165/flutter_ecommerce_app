@@ -3,6 +3,7 @@
 
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
+import 'package:ibb_store/features/authentication/screens/login/login.dart';
 //this gets the getX package, which is a very popular STATE management package in flutter
 //USed for
 //State management
@@ -54,6 +55,7 @@ class OnboardingController extends GetxController{
   void nextPage(){
     if(currentPageIndex.value==2){
       //get to login screen
+      Get.offAll(const LoginScreen());
     }
     else{
       int page = currentPageIndex.value+1;
@@ -63,8 +65,9 @@ class OnboardingController extends GetxController{
 
   //update current index and go to last page
   void skipPage(){
-    currentPageIndex.value = 2;//2 as that is the length of our slide show
-    pageController.jumpTo(2);
+    // currentPageIndex.value = 2;//2 as that is the length of our slide show
+    // pageController.jumpToPage(2);
+    Get.offAll(const LoginScreen());
   }
 
   void SmoothPageIndicator(index){}
