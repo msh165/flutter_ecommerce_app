@@ -6,12 +6,9 @@ import 'package:ibb_store/features/authentication/screens/onboarding/widgets/onb
 import 'package:ibb_store/features/authentication/screens/onboarding/widgets/onboarding_next.dart';
 import 'package:ibb_store/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
 import 'package:ibb_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:ibb_store/utils/constants/colors.dart';
 import 'package:ibb_store/utils/constants/image_strings.dart';
-import 'package:ibb_store/utils/constants/sizes.dart';
 import 'package:ibb_store/utils/constants/text_strings.dart';
-import 'package:ibb_store/utils/device/device_utility.dart';
-import 'package:ibb_store/utils/helpers/helper_functions.dart';
+
 
 class OnBoardingScreen extends StatelessWidget{ //Stateless widget here means that this is just a display, should not change dynamically
 //For example, does not need to update whenever things like ticking a box or typing something happens
